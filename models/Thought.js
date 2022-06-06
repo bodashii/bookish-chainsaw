@@ -1,4 +1,5 @@
 const { Schema, model } = require('mongoose');
+const dateDisplay = require('../utils/dateDisplay')
 
 const ThoughtSchema = new Schema(
     {
@@ -11,7 +12,7 @@ const ThoughtSchema = new Schema(
         createAt: {
             type: Date,
             default: Date.now,
-            // get: need date formatted
+            get: (e) => dateDisplay(e),
         },
         username: {
             type: String,
