@@ -10,8 +10,8 @@ to maintain a social media API.
 
 ### Usage
 ----
-Clone this repository to your local maine! Then npm install! Insomnia was used in this demo
+Clone this repository to your local machine! Then npm install! Insomnia was used for the demo!
 
 ### Demo
 ----
-[Click here for Demo!]
+[Click here for Demo!](https://drive.google.com/file/d/1PE8YiUgM9_egrbJSLSGNrYc8i3xoFQ_j/view)
